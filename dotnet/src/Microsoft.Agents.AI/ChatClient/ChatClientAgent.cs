@@ -312,7 +312,7 @@ public sealed partial class ChatClientAgent : AIAgent
     /// instances that support server-side conversation storage through their underlying <see cref="IChatClient"/>.
     /// </para>
     /// </remarks>
-    public AgentThread GetNewThread(string conversationId)
+    public AgentThread GetNewThread(string conversationId
         => new ChatClientAgentThread()
         {
             ConversationId = conversationId,
