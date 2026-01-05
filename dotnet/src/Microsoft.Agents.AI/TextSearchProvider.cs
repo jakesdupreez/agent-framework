@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.AI;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging
 using Microsoft.Shared.Diagnostics;
 
 namespace Microsoft.Agents.AI;
